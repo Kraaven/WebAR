@@ -25,8 +25,10 @@ MonoBehaviour:
     - ProjectPath: Needle/NTL_Poster
     BuilderScene: 
   - Path: Assets/Scenes/ViewPoster.unity
-    Projects: []
+    Projects:
+    - ProjectPath: NTL_Posters/ViewPoster
     BuilderScene: 
   Projects:
   - ProjectPath: Library/Needle/Sample
   - ProjectPath: Needle/NTL_Poster
+  - ProjectPath: NTL_Posters/ViewPoster
