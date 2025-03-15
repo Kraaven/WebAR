@@ -1,4 +1,7 @@
-import { Behaviour, serializable } from "@needle-tools/engine";
+import { Behaviour, GameObject, serializable } from "@needle-tools/engine";
+import { Material, Mesh, MeshBasicMaterial } from "three";
+
+
 
 export class ScaleOnTap extends Behaviour {
     
@@ -10,10 +13,10 @@ export class ScaleOnTap extends Behaviour {
 
     private isBig: boolean = false;
 
-    onPointerDown() {
-        // Toggle scale between small and big
-        const newScale = this.isBig ? this.smallScale : this.bigScale;
-        this.gameObject.scale.set(newScale, newScale, newScale);
-        this.isBig = !this.isBig;
-    }
+    // onPointerDown() {
+    //     // Toggle scale between small and big
+    //     const newScale = this.isBig ? this.smallScale : this.bigScale;
+    //     this.gameObject.scale.set(newScale, newScale, newScale);
+    //     this.isBig = !this.isBig;
+    // }
 }

@@ -9,7 +9,6 @@ namespace Needle.Typescript.GeneratedComponents
 	{
 		public float @smallScale = 1f;
 		public float @bigScale = 2f;
-		public void onPointerDown(){}
 	}
 }
 
