@@ -9,6 +9,7 @@ namespace Needle.Typescript.GeneratedComponents
 	{
 		public bool @open = false;
 		public UnityEngine.GameObject @other;
+		public Needle.Typescript.GeneratedComponents.GameManager @manager;
 		public void onPointerClick(UnityEngine.EventSystems.PointerEventData @args){}
 		public void SetOpen(){}
 	}
