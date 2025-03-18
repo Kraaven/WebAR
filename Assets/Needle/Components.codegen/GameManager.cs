@@ -14,6 +14,7 @@ namespace Needle.Typescript.GeneratedComponents
 		public bool @isVisile;
 		public bool @showingData;
 		public void PullChains(){}
+		public void start(){}
 		public void ShowLabData(string @lab_name){}
 	}
 }
