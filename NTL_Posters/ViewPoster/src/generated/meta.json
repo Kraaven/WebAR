@@ -1,0 +1,16 @@
+{
+  "sceneName": "View Poster",
+  "meta": null,
+  "absolutePath": null,
+  "deployOnly": false,
+  "needleEditor": null,
+  "developmentBuild": false,
+  "generator": "Unity 6000.0.23f1, Needle Engine Integration @4.3.2-beta.1",
+  "gzip": false,
+  "allowHotReload": true,
+  "license": {
+    "team": "org_dsmyjx83kah4"
+  },
+  "facebookInstantGames": null,
+  "useRapier": true
+}
